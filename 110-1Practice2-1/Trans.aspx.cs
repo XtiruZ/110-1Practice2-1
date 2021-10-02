@@ -15,7 +15,7 @@ namespace _110_1Practice2_1
             double celsius = 0.0;  // 初始化一個雙精準浮點數變數值Celsius為0
 
             d_value = Math.Round((celsius * 1.8) + 32, 2); // 轉換計算
-            Response.Write($"{d_value}°F"); // 印出結果
+            Response.Write($"{d_value}°F, C{celsius}"); // 印出結果
         }
 
     }
